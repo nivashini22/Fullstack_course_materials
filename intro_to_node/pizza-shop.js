@@ -1,0 +1,21 @@
+const EventEmitter = require('events')
+
+class PizzaShop extends EventEmitter{
+    constructor() {
+        super();
+        this.orderNumber =0;
+    }
+
+    order(size){
+        this.orderNumber++;
+        this.emit("order",size);
+    }
+
+    displayOrderNumber(){
+        console.log(`Current order number: ${this.orderNumber}`);
+    }
+
+
+}
+
+module.exports = PizzaShop;

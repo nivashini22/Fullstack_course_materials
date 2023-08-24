@@ -1,0 +1,83 @@
+body {
+    margin: 0;
+    text-align: center;
+    font-family: 'Merriweather', serif;
+}
+h1 {
+    margin-top: 0;
+    font-family: 'Sacramento', cursive;
+    line-height: 1;
+    font-size: 80px;
+    color:blueviolet;
+}
+h2{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: normal;
+    color:blueviolet;
+    padding-bottom: 10px;
+}
+h3{
+    font-family: 'Montserrat', sans-serif;
+    color:darkblue;
+
+}
+hr{
+    border:dotted #EAF6F6 6px;
+    border-bottom: none;
+    width: 10%;
+}
+
+.top-container {
+      background-color: rgb(201, 232, 242);
+      position: relative;
+      padding-top: 100px;
+}
+
+.middle-container{
+       margin: 10px 0;
+}
+.bottom-cloud{
+    position: absolute;
+}
+.top-cloud{
+    position: relative;
+    margin-left: 30%;
+}
+.whole{
+    background-color:rgb(201, 232, 242);
+}
+.skill-row{
+    line-height: 2;
+}
+.edu{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.btn {
+    background: #a234d9;
+    background-image: -webkit-linear-gradient(top, #a234d9, #2980b9);
+    background-image: -moz-linear-gradient(top, #a234d9, #2980b9);
+    background-image: -ms-linear-gradient(top, #a234d9, #2980b9);
+    background-image: -o-linear-gradient(top, #a234d9, #2980b9);
+    background-image: linear-gradient(to bottom, #a234d9, #2980b9);
+    -webkit-border-radius: 8;
+    -moz-border-radius: 8;
+    border-radius: 8px;
+    font-family: Arial;
+    color: #ffffff;
+    font-size: 20px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+  }
+  
+  .btn:hover {
+    background: #3cfce2;
+    background-image: -webkit-linear-gradient(top, #3cfce2, #3498db);
+    background-image: -moz-linear-gradient(top, #3cfce2, #3498db);
+    background-image: -ms-linear-gradient(top, #3cfce2, #3498db);
+    background-image: -o-linear-gradient(top, #3cfce2, #3498db);
+    background-image: linear-gradient(to bottom, #3cfce2, #3498db);
+    text-decoration: none;
+  }
+  .cont{
+    margin: 20px;
+  }
